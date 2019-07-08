@@ -111,7 +111,7 @@ a {
   font-weight: 500;
   font-size: 55px;
   text-transform: none;
-  margin: 67px 0px 111px 0px;
+  margin: 67px 0px 10px 0px;
 }
 
  /* slades */
@@ -280,16 +280,18 @@ a {
    line-height: 1.25;
    text-align: left;
    text-transform: uppercase;
+   margin: 17px 0px 0px 0px;
  }
  .block-services p {
    color: rgb(40, 49, 54);
    font-size: 16px;
    line-height: 1.5;
    width: 280px;
+   margin: 16px 0px 0px 0px;
  }
  .btn-services {
-   margin-top: 19px;
-   padding: 17px 39px;
+   margin-top: 32px;
+   padding: 17px 39px 15px 40px;
    color: rgb(255, 255, 255);
    font-size: 16px;
    font-weight: 500;
@@ -343,7 +345,7 @@ a {
    margin-right: auto;
    display: flex;
    justify-content: space-between;
-   margin-bottom: 76px;
+   margin-bottom: 55px;
  }
  .task-list {
    width: 650px;
@@ -353,28 +355,31 @@ a {
    font-size: 45px;
    line-height: 1;
    font-weight: 500;
-   margin-top: 30px;
+   margin: 30px 0px 10px 0px;
  }
  .task-list p {
    font-size: 16px;
    line-height: 1.5;
    color: rgb(40, 49, 54);
+   margin: 35px 0px 0px 0px;
+   width: 617px;
  }
  .task-list h3 {
    font-size: 16px;
    line-height: 1.5;
    text-transform: uppercase;
+   margin-top: 36px;
  }
  .task-list ol {
    list-style: none;
    font-size: 16px;
    line-height: 1.5;
    color: rgb(40, 49, 54);
-   padding-left: 32px;
+   padding-left: 36px;
  }
  .task-list li {
    position: relative;
-   margin-bottom: 15px;
+   margin: 25px 0px 15px 0px;;
  }
  .task-list li::before {
    content: "";
@@ -382,8 +387,8 @@ a {
    width: 25px;
    height: 2px;
    background-color: rgb(251, 86, 90);
-   top: 10px;
-   left: -32px;
+   top: 11px;
+   left: -35px;
  }
  .feature {
    width: 360px;
@@ -393,6 +398,7 @@ a {
    text-align: center;
    text-transform: uppercase;
    font-weight: 700;
+   margin: 28px 0px 0px 0px;
  }
  .feature ul {
    list-style: none;
@@ -403,7 +409,7 @@ a {
    font-size: 45px;
    line-height: 0.22;
    font-weight: 700;
-   margin: 45px 0px 0px 0px;
+   margin: 58px 0px 0px 0px;
  }
  .feature-percent li {
    position: relative;
@@ -413,14 +419,14 @@ a {
    font-family: Helvetica;
    font-size: 26px;
    letter-spacing: 0;
-   line-height: 10.06px;
+   line-height: 10px;
    position: absolute;
    top: -9px;
  }
  .feature-text {
    line-height: 1.13;
    color: rgb(40, 49, 54);
-   margin: 25px 0px 0px 0px;
+   margin: 36px 0px 0px 0px;
  }
  .feature-text li {
    margin-right: 25px;
@@ -441,6 +447,8 @@ a {
    align-items: center;
    flex-wrap: wrap;
    min-height: 180px;
+   margin-top: 0px;
+   margin-bottom: 0px;
  }
  .logos-works li {
    position: relative;
@@ -456,8 +464,8 @@ a {
    height: 52px;
    border-right: 2px solid rgb(238, 238, 238);
    position: absolute;
-   top: 17px;
-   right: -50px;
+   top: 15px;
+   right: -52px;
  }
  .logos-works li:NOT(:NTH-CHILD(4N+1)) {
    margin-left: 96px;
@@ -472,6 +480,18 @@ a {
  .logos-works img:active {
    opacity: 0.1;
  }
+ .logo-html {
+   margin: 8px 0px 0px -7px;
+ }
+ .logo-borodinski {
+   margin-right: 7px;
+ }
+ .logo-pink {
+   margin-right: 25px;
+ }
+ .logo-mishka {
+   margin-top: 5px;
+ }
 
 
 /* main catalog */
@@ -482,6 +502,9 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+.sort-price {
+  margin: 46px 0px 0px 0px;
+}
 .block-sort-price {
   width: 242px;
   height: 81px;
@@ -489,6 +512,7 @@ a {
   position: relative;
   padding-left: 19px;
   border-radius: 3px;
+  margin-top: 48px;
 }
 .scale {
   width: 219px;
@@ -509,6 +533,7 @@ a {
   font-size: 18px;
   line-height: 1.67;
   font-weight: 700;
+  margin: 0px;
 }
 .range-controls label {
   line-height: 1.25;
@@ -516,10 +541,10 @@ a {
   font-size: 16px;
 }
 .range-toggle {
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   border-radius: 50%;
-  border: 10px solid rgb(255, 255, 255);
+  border: 9px solid rgb(255, 255, 255);
   position: absolute;
   top: 29px;
   background-color: rgb(171, 171, 171);
@@ -529,33 +554,55 @@ a {
   top: 29px;
   right: 80px;
 }
+.price-min-max {
+  margin-top: 12px;
+}
+.max-price {
+  margin-left: 25px;
+}
 .min-price input[type="text"],
 .max-price input[type="text"] {
   font-size: 16px;
   line-height: 1.38;
   color: rgb(40, 49, 54);
   width: 80px;
-  height: 38px;
+  height: 36px;
   background-color: rgb(238, 238, 238);
   border: 0px;
-  /* box-sizing: border-box; */
+  margin-left: 12px;
   text-align: center;
+  border-radius: 3px;
+}
+.grid {
+  margin: 55px 0px 0px 0px;
 }
 .grid-block {
-  width: 155px;
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.features-block p {
+  margin: 0px;
+}
+.features-block {
+  width: 180px;
+  padding: 7px 0px 4px 1px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .grid-radio {
   position: relative;
-  padding: 9px 0px 0px 49px;
+  padding: 16px 0px 4px 36px;
   cursor: pointer;
 }
 .grid-radio input[type="radio"] + .radio-indicator {
   position: absolute;
-  top: 8px;
-  left: 14px;
+  top: 13px;
+  left: 1px;
 
-  width: 14px;
-  height: 14px;
+  width: 17px;
+  height: 17px;
 
   border: 4px solid rgb(77, 77, 77);
   border-radius: 50px;
@@ -568,25 +615,26 @@ a {
 .grid-radio input[type="radio"]:checked + .radio-indicator::before {
   content: "";
   position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 8px;
-  height: 8px;
+  top: 4px;
+  left: 4px;
+  width: 9px;
+  height: 9px;
   border-radius: 50px;
   background-color: rgb(77, 77, 77);
 }
 .features {
   width: 150px;
+  margin-top: 41px;
 }
 .features-checkbox {
   position: relative;
-  padding: 9px 0px 0px 51px;
+  padding: 9px 0px 11px 35px;
   cursor: pointer;
 }
 .features-checkbox input[type="checkbox"] + .checkbox-indicator {
   position: absolute;
   top: 7px;
-  left: 16px;
+  left: 0px;
 
   width: 19px;
   height: 19px;
@@ -608,21 +656,22 @@ a {
  border: 0px;
  opacity: 0.4;
 }
-.btn-features-icecream {
+.btn-price {
   font-weight: 500;
   line-height: 1.13;
   color: rgb(0, 0, 0);
-  padding: 17px 85px;
+  margin-top: 34px;
+  padding: 16px 88px 16px 89px;
   border: 0px;
   background-color: rgb(238, 238, 238);
 }
-.btn-features-icecream:hover,
-.btn-features-icecream:focus,
+.btn-price:hover,
+.btn-price:focus,
 .right-block-bot li:hover,
 .right-block-bot li:focus {
   background-color: rgb(223, 223, 223);
 }
-.btn-features-icecream:active,
+.btn-price:active,
 .right-block-bot li:active {
   background: rgb(213, 213, 213);
   box-shadow: inset 0 3px 0 0 rgba(0,1,1,0.10);
@@ -634,18 +683,29 @@ a {
 }
 .sort {
   height: 40px;
-  font-weight: 700;
+  margin: 31px 0px 52px 0px;
 }
 .sort-by {
-  justify-content: flex-end;
   height: 40px;
+  width: 640px;
+  margin-top: 31px;
 }
 .sort p {
-
+  margin-left: 138px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
 }
 .sort-by ul{
   list-style: none;
   display: flex;
+  justify-content: flex-end;
+}
+.sort-by li:not(:last-child){
+  padding-left: 28px;
+}
+.sort-by li:last-child {
+  padding-left: 18px;
 }
 .sort-by a {
   font-size: 14px;
@@ -664,6 +724,7 @@ a {
 }
 .sort-active a{
   opacity: 1;
+  margin-left: 20px;
 }
 
 /* style item card */
@@ -679,11 +740,13 @@ a {
   background-color: rgb(233, 233, 233);
   border-radius: 3px 3px 0px 0px;
   position: relative;
-  margin: 0px 0px 33px 40px;
+  margin: 0px 0px 44px 40px;
 }
 .item-card:hover .footer-item-card,
 .item-card:active .footer-item-card {
   display: block;
+  border: 1px solid rgba(77,77,77,0.10);
+  box-shadow: 0 6px 15px 0 rgba(0,1,1,0.25);
 }
 .item-card:hover ,
 .item-card:active {
@@ -754,13 +817,11 @@ a {
 .right-block-bot ul {
   display: flex;
   list-style: none;
-  margin-left: 89px;
-
+  margin: 16px 0px 0px 89px;
 }
 .right-block-bot li {
   width: 50px;
   height: 50px;
-  border: solid 3px rgb(219, 219, 219);
   background-color: rgb(238, 238, 238);
   margin-left: 11px;
   display: flex;
@@ -806,12 +867,11 @@ a {
  /* footer */
 
 
-.maps {
-  width: 1440px;
+.maps-footer {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .adress-maps {
   width: 319px;
@@ -833,7 +893,7 @@ a {
   color: rgb(102, 102, 102);
   margin: 0px 0px 20px 50px;
 }
-.maps img:last-child{
+.maps-footer img:last-child{
   position: absolute;
   top: 89px;
   left: 820px;
@@ -874,7 +934,8 @@ input[type="checkbox"]:checked ~ .form-bulb {
   display: flex;
 }
 .social {
-  margin-top: 63px;
+  margin-top: 62px;
+  margin-bottom: 77px;
 }
 .social ul {
   list-style: none;
@@ -890,8 +951,8 @@ input[type="checkbox"]:checked ~ .form-bulb {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 79px;
-  height: 79px;
+  width: 78px;
+  height: 78px;
   background-color: rgb(225, 225, 225);
 }
 .social-btn:hover,
@@ -909,7 +970,8 @@ input[type="checkbox"]:checked ~ .form-bulb {
 }
 .friend {
   margin-left: 139px;
-  margin-top: 70px;
+  margin-top: 68px;
+  margin-bottom: 77px;
 }
 .friend b {
   font-size: 36px;
@@ -918,5 +980,5 @@ input[type="checkbox"]:checked ~ .form-bulb {
 .friend p {
   line-height: 1.38;
   color: rgb(68, 68, 68);
-  margin-top: 12px;
+  margin-top: 7px;
 }
