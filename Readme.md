@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Konstanz Bakharev](https://up.htmlacademy.ru/htmlcss/25/user/197437).
-* Наставник: `Неизвестно`.
+* Наставник: [Татьяна Симоненко](https://up.htmlacademy.ru/htmlcss/25/user/6613).
 
 ---
 
