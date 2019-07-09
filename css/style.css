@@ -127,7 +127,7 @@ a {
   font-weight: 500;
   font-size: 55px;
   text-transform: none;
-  margin: 67px 0px 10px 0px;
+  margin: 57px 0px 10px 0px;
 }
 
  /* slades */
@@ -239,7 +239,7 @@ a {
 .slide-item h3 {
   max-width: 600px;
   margin: 0;
-  margin-bottom: 29px;
+  margin-bottom: 26px;
   font-size: 55px;
   line-height: 1;
   font-weight: 500;
@@ -248,7 +248,7 @@ a {
 .slide-item p {
   max-width: 430px;
   margin: 0;
-  margin-bottom: 37px;
+  margin-bottom: 39px;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -288,7 +288,7 @@ a {
    width: 1160px;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 80px;
+   margin-top: 78px;
  }
  .services-sait img {
    background-color: rgb(251, 86, 90);
@@ -310,7 +310,7 @@ a {
    line-height: 1.25;
    text-align: left;
    text-transform: uppercase;
-   margin: 17px 0px 0px 0px;
+   margin: 19px 0px 0px 0px;
  }
  .block-services p {
    color: rgb(40, 49, 54);
@@ -515,7 +515,7 @@ a {
    right: -52px;
  }
  .logos-works li:NOT(:NTH-CHILD(4N+1)) {
-   margin-left: 96px;
+   margin-left: 95px;
  }
  .logos-works img {
   opacity: 0.2;
@@ -528,16 +528,16 @@ a {
    opacity: 0.1;
  }
  .logo-html {
-   margin: 8px 0px 0px -7px;
+   margin: 29px 0px 0px -8px;
  }
  .logo-borodinski {
    margin-right: 7px;
  }
  .logo-pink {
-   margin-right: 25px;
+   margin: 36px 25px 0px 0px;
  }
  .logo-mishka {
-   margin-top: 5px;
+   margin-top: 10px;
  }
 
 
@@ -810,7 +810,7 @@ a {
   background-color: rgb(233, 233, 233);
   border-radius: 3px 3px 0px 0px;
   position: relative;
-  margin: 0px 0px 44px 40px;
+  margin: 0px 0px 33px 40px;
 }
 .item-card:hover .footer-item-card,
 .item-card:active .footer-item-card {
@@ -859,12 +859,14 @@ a {
 .footer-item-card {
   display: none;
 }
+.footer-item-card-active h3,
+.footer-item-card h3 {
+  margin: 28px 0px 0px 0px;
+}
 .footer-item-card-active a,
 .footer-item-card a {
   font-size: 18px;
   line-height: 1.67;
-  margin-top: 27px;
-  margin-bottom: 10px;
 }
 .footer-item-card-active p,
 .footer-item-card p {
@@ -933,7 +935,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin: 16px 0px 0px 89px;
+  margin: 29px 0px 0px 87px;
+}
+.number-one {
+  border: solid 3px rgb(219, 219, 219);
+  box-sizing: border-box;
 }
 .right-block-bot li {
   width: 50px;
@@ -979,7 +985,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .maps-footer img:not(.marker-adress) {
   background-color: rgb(233, 229, 220)
@@ -1002,10 +1008,10 @@ a {
   width: 201px;
   line-height: 1.13;
   color: rgb(102, 102, 102);
-  margin: 0px 0px 20px 50px;
+  margin: 0px 0px 17px 50px;
 }
 .adress-maps a {
-  margin: 16px 0px 0px 50px;
+  margin: 20px 0px 0px 50px;
 }
 .maps-footer img:last-child{
   position: absolute;
@@ -1068,9 +1074,7 @@ a {
   fill: rgb(227, 115, 118);
 }
 .friend {
-  margin-left: 139px;
-  margin-top: 68px;
-  margin-bottom: 77px;
+  margin: 68px 0px 77px 137px;
 }
 .friend b {
   font-size: 36px;
@@ -1079,7 +1083,7 @@ a {
 .friend p {
   line-height: 1.38;
   color: rgb(68, 68, 68);
-  margin-top: 7px;
+  margin-top: 9px;
 }
 
 
@@ -1212,7 +1216,7 @@ a {
   font-size: 16px;
   line-height: 18px;
   display: inline-block;
-  padding: 16px 40px;
+  padding: 17px 45px 15px 44px;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
