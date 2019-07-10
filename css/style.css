@@ -491,9 +491,6 @@ a {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
-   -webkit-box-align: center;
-       -ms-flex-align: center;
-           align-items: center;
    -ms-flex-wrap: wrap;
        flex-wrap: wrap;
    min-height: 180px;
@@ -534,16 +531,16 @@ a {
    opacity: 0.1;
  }
  .logo-html {
-   margin: 29px 0px 0px -8px;
+   margin: 64px 0px 0px -8px;
  }
  .logo-borodinski {
-   margin-right: 7px;
+   margin: 48px 7px 0px 0px;
  }
  .logo-pink {
-   margin: 36px 25px 0px 0px;
+   margin: 66px 25px 0px 0px;
  }
  .logo-mishka {
-   margin-top: 10px;
+   margin: 55px 0px 8px 0px;
  }
 
 
@@ -988,11 +985,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 .maps-footer {
   margin-left: auto;
