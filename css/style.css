@@ -12,6 +12,10 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
 .visually-hidden {
   position: absolute;
 
@@ -127,7 +131,7 @@ a {
   font-weight: 500;
   font-size: 55px;
   text-transform: none;
-  margin: 57px 0px 10px 0px;
+  margin: 57px 0px 0px 0px;
 }
 
  /* slades */
@@ -442,13 +446,14 @@ a {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
-   padding: 0px;
+   padding: 0px 0px 0px 0px;
  }
  .feature-percent {
    font-size: 45px;
    line-height: 0.22;
    font-weight: 700;
    margin: 58px 0px 0px 0px;
+   min-height: 20px;
  }
  .feature-percent li {
    position: relative;
@@ -465,7 +470,7 @@ a {
  .feature-text {
    line-height: 1.13;
    color: rgb(40, 49, 54);
-   margin: 36px 0px 0px 0px;
+   margin: 28px 0px 0px 0px;
  }
  .feature-text li {
    margin-right: 25px;
@@ -474,6 +479,7 @@ a {
    width: 1160px;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 20px;
  }
  .block-logo hr {
    width: 1160px;
@@ -544,6 +550,7 @@ a {
 /* main catalog */
 .block-main {
   width: 1160px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
@@ -553,7 +560,7 @@ a {
       flex-wrap: wrap;
 }
 .sort-price {
-  margin: 46px 0px 0px 0px;
+  margin: 16px 0px 0px 0px;
 }
 .block-sort-price {
   width: 242px;
@@ -670,6 +677,9 @@ a {
 .grid-radio input[type="radio"]:focus + .radio-indicator {
   opacity: 1;
 }
+.grid-radio input[type="radio"]:disabled + .radio-indicator {
+  opacity: 0.1;
+}
 .grid-radio input[type="radio"]:checked + .radio-indicator::before {
   content: "";
   position: absolute;
@@ -706,6 +716,10 @@ a {
 .features-checkbox input[type="checkbox"]:checked:hover + .checkbox-indicator,
 .features-checkbox input[type="checkbox"]:checked:focus + .checkbox-indicator {
   opacity: 1;
+}
+.features-checkbox input[type="checkbox"]:disabled + .checkbox-indicator,
+.features-checkbox input[type="checkbox"]:disabled:hover + .checkbox-indicator {
+  opacity: 0.1;
 }
 .features-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
  background-image: url("../img/checkbox-on.svg");
@@ -744,12 +758,11 @@ a {
 }
 .sort {
   height: 40px;
-  margin: 31px 0px 52px 0px;
+  margin: 0px 0px 52px 0px;
 }
 .sort-by {
   height: 40px;
   width: 640px;
-  margin-top: 31px;
 }
 .sort p {
   margin-left: 138px;
@@ -985,7 +998,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .maps-footer img:not(.marker-adress) {
   background-color: rgb(233, 229, 220)
